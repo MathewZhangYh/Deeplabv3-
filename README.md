@@ -11,8 +11,7 @@ author ： 自动化1904张宇恒U201914728
 
 ### 所需环境
 opencv_python==4.1.2.30\
-torch==1.2.0\
-torchvision==0.4.0
+torch==1.2.0
 
 ### 文件下载
 已经训练好的模型 deeplabv3+_model.pth
