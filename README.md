@@ -41,7 +41,7 @@ torchvision==0.4.0
 
 3、model_eval.ipynb 会在验证集上，生成模型预测的mask
 
-3、或修改 model_eval.ipynb 中 "model_path" 再评估 miou 和 boundary iou
+4、或修改 model_eval.ipynb 中 "model_path" 再评估 miou 和 boundary iou
 
 
 ### 评估结果
