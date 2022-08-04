@@ -39,7 +39,7 @@ torchvision==0.4.0
 
 2、可在训练完成后，直接运行 model_eval.ipynb
 
-3、model_eval.ipynb 在验证集上，模型预测的mask
+3、model_eval.ipynb 会在验证集上，生成模型预测的mask
 
 3、或修改 model_eval.ipynb 中 "model_path" 再评估 miou 和 boundary iou
 
