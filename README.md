@@ -5,9 +5,8 @@ author ： 自动化1904张宇恒U201914728
 1. [所需环境](#所需环境)
 2. [文件下载](#文件下载)
 3. [数据准备](#数据准备)
-4. [训练步骤](#训练步骤)
-5. [评估步骤](#评估步骤)
-6. [评估结果](#评估结果)
+4. [程序运行](#程序运行)
+5. [评估结果](#评估结果)
 
 ### 所需环境
 opencv_python==4.1.2.30\
@@ -27,20 +26,12 @@ torch==1.2.0
 
 3、将 deeplabv3+_model.pth 模型文件放在 model
 
-### 训练步骤    
-1、运行 annotation.ipynb 文件划分数据集
+### 训练评估   
+1、直接运行deeplabv3_plus.ipynb
 
-2、运行 train.ipynb 文件，可以使用训练好的模型权重进行模型训练，将下载的模型按上面数据准备放好即可
- 
+2、可以载入已训练好的模型参数，测试程序可行性可仅训练1个epoch
 
-### 评估步骤
-1、用于评估的模型路径在 logs 文件夹，模型文件名为 best_model.pth
-
-2、可在训练完成后，直接运行 model_eval.ipynb
-
-3、model_eval.ipynb 会在验证集上，生成模型预测的mask
-
-4、或修改 model_eval.ipynb 中 "model_path" 再评估 miou 和 boundary iou
+3、在验证集上进行推理，生成mask存放在detection文件夹
 
 
 ### 评估结果
