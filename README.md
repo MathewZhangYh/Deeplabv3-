@@ -26,7 +26,7 @@ torchvision==0.4.0
 
 2、训练前将 mask 的 png 格式文件放在 weizmann_horse_db\mask
 
-3、将 deeplab_mobilenetv2.pth 模型文件放在 model
+3、将 deeplabv3+_model.pth 模型文件放在 model
 
 ### 训练步骤    
 1、运行 annotation.ipynb 文件划分数据集
