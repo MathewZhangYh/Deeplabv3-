@@ -19,6 +19,8 @@ torch==1.2.0
 提取码：mzyh 
 
 ### 数据准备
+数据集下载地址：https://www.msri.org/people/members/eranb/
+
 1、训练前将原始图片的 jpg 格式文件放在 weizmann_horse_db\horse
 
 2、训练前将 mask 的 png 格式文件放在 weizmann_horse_db\mask
